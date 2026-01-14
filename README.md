@@ -1,4 +1,4 @@
-# 🤪 表情包检索系统 (Meme Museum)
+# 🤪 表情包检索系统 (Meme Search System)
 
 > **人工智能课程设计** | 基于 Streamlit 与开源数据集的轻量级表情包检索系统
 

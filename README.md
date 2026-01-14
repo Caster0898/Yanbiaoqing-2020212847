@@ -14,19 +14,19 @@
 
 ## ✨ 核心功能
 
-* [cite_start]**⚡ 极速检索**：基于内存的线性扫描算法，支持对文件名和分类进行模糊匹配，响应速度极快 [cite: 26, 27]。
-* [cite_start]**🚀 CDN 加速**：利用 `jsDelivr` CDN 替代原始 GitHub 链接，解决国内网络环境下图片加载慢、裂图等问题 [cite: 22, 47]。
-* [cite_start]**🛡️ 鲁棒性设计**：内置智能解析引擎 (`parse_item`)，能自动处理异构数据源（兼容列表与字典嵌套格式），防止系统因数据源微调而崩溃 [cite: 23, 43]。
-* [cite_start]**💾 智能缓存**：引入 `@st.cache_data` 机制，索引文件仅需首次加载，后续请求直接读取内存（TTL 1小时），极大降低延迟 [cite: 25]。
-* [cite_start]**🖼️ 沉浸体验**：简洁的瀑布流布局，支持侧边栏热门分类导航及原图下载 [cite: 11, 163]。
+* **⚡ 极速检索**：基于内存的线性扫描算法，支持对文件名和分类进行模糊匹配，响应速度极快 [cite: 26, 27]。
+* **🚀 CDN 加速**：利用 `jsDelivr` CDN 替代原始 GitHub 链接，解决国内网络环境下图片加载慢、裂图等问题 [cite: 22, 47]。
+* **🛡️ 鲁棒性设计**：内置智能解析引擎 (`parse_item`)，能自动处理异构数据源（兼容列表与字典嵌套格式），防止系统因数据源微调而崩溃 [cite: 23, 43]。
+* **💾 智能缓存**：引入 `@st.cache_data` 机制，索引文件仅需首次加载，后续请求直接读取内存（TTL 1小时），极大降低延迟 [cite: 25]。
+* **🖼️ 沉浸体验**：简洁的瀑布流布局，支持侧边栏热门分类导航及原图下载 [cite: 11, 163]。
 
 ## 🛠️ 技术栈
 
-* [cite_start]**开发语言**：Python 3.x [cite: 16]
-* [cite_start]**Web 框架**：Streamlit (用于快速构建交互式前端) [cite: 17]
-* [cite_start]**网络请求**：Requests [cite: 18]
-* [cite_start]**数据处理**：Re (正则表达式), Pandas (可选) [cite: 19]
-* [cite_start]**数据来源**：[zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) [cite: 30]
+* **开发语言**：Python 3.x [cite: 16]
+* **Web 框架**：Streamlit (用于快速构建交互式前端) [cite: 17]
+* **网络请求**：Requests [cite: 18]
+* **数据处理**：Re (正则表达式), Pandas (可选) [cite: 19]
+* **数据来源**：[zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB) [cite: 30]
 
 ## 🚀 快速启动
 
